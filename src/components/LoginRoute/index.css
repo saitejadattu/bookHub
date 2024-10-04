@@ -1,0 +1,75 @@
+@media (min-width: 361px) {
+  .login-container-desktop {
+    height: 100vh;
+  }
+  .login-image-form-container-desktop {
+    display: flex;
+  }
+  .login-book-image-desktop {
+    height: 100vh;
+    width: 50%;
+  }
+  .login-book-image-mobile {
+    display: none;
+  }
+}
+@media (max-width: 360px) {
+  .login-book-image-desktop {
+    display: none;
+  }
+  .login-container-mobile {
+    height: 640px;
+  }
+  .login-book-image-mobile {
+    align-self: center;
+  }
+  .login-image-form-container-mobile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+.login-form-div-container {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  height: 100vh;
+}
+.login-form-container {
+  align-self: center;
+  width: 400px;
+}
+.login-book-logo {
+  display: flex;
+  justify-content: center;
+}
+.login-input {
+  width: 100%;
+  padding: 10px;
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid grey;
+  color: grey;
+  font-weight: 400;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.login-button {
+  width: 100%;
+  padding: 10px;
+  background-color: rgb(43, 43, 212);
+  color: white;
+  border-radius: 5px;
+  border: 0px;
+  margin-top: 20px;
+}
+.login-error-message {
+  color: rgba(239, 68, 68, 1);
+}
+.login-form-div-container {
+  margin-top: 0px;
+  padding-top: 0px;
+  height: 100%;
+  align-self: center;
+}

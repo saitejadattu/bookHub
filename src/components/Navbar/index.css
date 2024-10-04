@@ -1,0 +1,102 @@
+@media (min-width: 361px) {
+  .navbar-container-desktop {
+    display: flex;
+    justify-content: space-between;
+    height: 89px;
+    gap: 0px;
+    opacity: 0px;
+    padding-left: 100px;
+    padding-right: 100px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    background-color: #fff;
+  }
+  .navbar-book-logo-desktop {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .navbar-un-ordered-list-mobile {
+    display: none;
+  }
+
+  .navbar-un-ordered-list-desktop {
+    list-style-type: none;
+    margin-left: 0px;
+    padding-left: 0px;
+    display: flex;
+    justify-content: space-between;
+
+    width: 30%;
+    align-self: center;
+    align-items: center;
+  }
+}
+@media (max-width: 360px) {
+  .navbar-container-mobile {
+    display: flex;
+    justify-content: space-between;
+    height: 56px;
+    gap: 0px;
+    opacity: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    background-color: #fff;
+  }
+  .navbar-book-logo-mobile {
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .navbar-un-ordered-list-desktop {
+    display: none;
+  }
+  .navbar-un-ordered-list-mobile {
+    align-self: center;
+  }
+}
+
+.navbar-buttons {
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: rgba(100, 116, 139, 1);
+  background-color: transparent;
+  border: 0px;
+}
+.navbar-logout-button {
+  border: 0px;
+  padding: 15px;
+  background-color: blue;
+  color: white;
+  border-radius: 5px;
+}
+.navbar-buttons:hover {
+  color: rgba(2, 132, 199, 1);
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+.navabr-hamberger-button {
+  border: 0px;
+  background-color: transparent;
+}
+.navbar-un-ordered-list-mobile-popup {
+  width: 360px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+.navbar-logout-colse {
+  background-color: transparent;
+  border: 0px;
+}
+@media (min-width: 361px) {
+  .navbar-un-ordered-list-mobile-popup {
+    display: none;
+  }
+}

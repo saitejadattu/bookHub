@@ -1,0 +1,183 @@
+@media (min-width: 361px) {
+  .home-heading-para-container {
+    margin-left: 145px;
+  }
+
+  .home-carousel-find-button-mobile {
+    display: none;
+  }
+  .home-carousel-find-button-desktop {
+    background: rgba(2, 132, 199, 1);
+    width: Hug (104px) px;
+    height: Hug (36px) px;
+    padding: 10px 20px 10px 20px;
+    gap: 8px;
+    border-radius: 4px;
+    opacity: 0px;
+    align-self: center;
+    color: rgba(248, 250, 252, 1);
+    border: 0px;
+  }
+  .home-carousel-heading-container-mobile {
+    display: none;
+  }
+  .home-carousel-heading-container-desktop {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    align-self: center;
+  }
+  .home-carousel-slider-container-desktop {
+    text-align: center;
+    background-color: #fff;
+    align-self: center;
+  }
+  .home-carousel-container-desktop {
+    border-radius: 10px;
+    color: #ffff;
+    padding: 20px;
+    background-color: #ffff;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    width: 1240px;
+    height: 500px;
+    top: 309px;
+    left: 100px;
+    gap: 0px;
+    opacity: 0px;
+  }
+}
+@media (max-width: 360px) {
+  .home-heading-para-container {
+    padding: 5px;
+  }
+  .home-main-heading-mobile {
+    font-family: inherit;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 32px;
+    text-align: left;
+    color: rgba(30, 41, 59, 1);
+  }
+  .home-main-para-mobile {
+    font-family: inherit;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    color: rgba(71, 85, 105, 1);
+  }
+  .home-carousel-heading-container-desktop {
+    display: none;
+  }
+  .home-carousel-find-button-mobile {
+    background: rgba(2, 132, 199, 1);
+    width: 150px;
+    height: Hug (36px) px;
+    padding: 10px 20px 10px 20px;
+    gap: 8px;
+    border-radius: 4px;
+    opacity: 0px;
+    color: rgba(248, 250, 252, 1);
+    border: 0px;
+  }
+  .home-carousel-heading-container-mobile {
+  }
+  .home-carousel-heading-mobile {
+    color: rgba(30, 41, 59, 1);
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+  }
+  .home-carousel-slider-container-mobile {
+    background-color: #fff;
+    padding: 10px;
+    width: 360px;
+    height: 203px;
+    gap: 0px;
+    opacity: 0px;
+  }
+  .home-carousel-container-mobile {
+  }
+}
+.home-container {
+  background: rgb(232, 241, 255);
+  min-height: 100vh;
+  max-height: 1000vh;
+}
+.home-content-container {
+  display: flex;
+  flex-direction: column;
+}
+.home-main-heading {
+  color: rgba(30, 41, 59, 1);
+  font-family: 'Roboto';
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 64px;
+  text-align: left;
+}
+.home-main-para {
+  color: rgba(71, 85, 105, 1);
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 32px;
+  text-align: left;
+  width: 998px;
+  height: 64px;
+  top: 213px;
+  gap: 0px;
+  opacity: 0px;
+}
+
+.home-carousel-heading {
+  color: rgba(30, 41, 59, 1);
+  font-family: 'Roboto';
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 32px;
+  text-align: center;
+}
+
+.hh3 {
+  color: black;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: black;
+}
+
+.slick-prev:hover,
+.slick-next:hover {
+  color: #ffcc00; /* Change arrow color on hover */
+}
+
+/* Optional: Change the background color of the arrows */
+.slick-prev:before,
+.slick-next:before {
+  color: #ff5733; /* Change the default arrow icon color */
+}
+.loader-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.failureView-container-home {
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.failureView-container-home-home {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

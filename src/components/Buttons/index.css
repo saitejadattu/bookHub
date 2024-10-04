@@ -1,0 +1,52 @@
+@media (min-width: 361px) {
+  .buttons-list-item-desktop {
+    border: 0px;
+    background-color: transparent;
+  }
+  .active-button-desktop {
+    gap: 0px;
+    opacity: 0px;
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: left;
+    color: rgba(2, 132, 199, 1);
+  }
+}
+@media (max-width: 360px) {
+  .buttons-list-item-mobile {
+    background-color: #fff;
+    border: 1px solid rgba(2, 132, 199, 1);
+    border-radius: 15px;
+    color: rgba(2, 132, 199, 1);
+    font-weight: 500;
+    padding: 10px;
+    margin-left: 5px;
+  }
+  .active-button-mobile {
+    gap: 0px;
+    opacity: 0px;
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: left;
+    background-color: rgba(2, 132, 199, 1);
+    color: #ffff;
+  }
+  .buttons-container-mobile {
+  }
+}
+
+.buttons-list-item {
+  border: 0px;
+  background-color: transparent;
+  color: rgba(71, 85, 105, 1);
+
+  gap: 0px;
+  opacity: 0px;
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: left;
+  align-self: center;
+}

@@ -1,0 +1,53 @@
+.page-not-found-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.page-not-found-image {
+  width: 448px;
+  height: 295.73px;
+  top: 244px;
+  left: 496px;
+  gap: 0px;
+  opacity: 0px;
+}
+.page-not-found-heading {
+  font-family: inherit;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 48px;
+  text-align: center;
+  color: rgba(51, 65, 85, 1);
+}
+.page-not-found-para {
+  font-family: inherit;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  text-align: center;
+  color: rgba(71, 85, 105, 1);
+}
+.page-not-found-button {
+  width: Hug (164px) px;
+  height: Hug (48px) px;
+  top: 732px;
+  left: 638px;
+  gap: 0px;
+  border-radius: 4px;
+  opacity: 0px;
+  width: Hug (116px) px;
+  height: Hug (24px) px;
+  gap: 8px;
+  opacity: 0px;
+  font-family: inherit;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: left;
+  color: rgba(255, 255, 255, 1);
+  background: rgba(2, 132, 199, 1);
+  border: 0px;
+  padding: 10px;
+}

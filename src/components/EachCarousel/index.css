@@ -1,0 +1,67 @@
+@media (min-width: 361px) {
+  .eachCarousel-container-desktop {
+    width: 350px;
+    height: 292px;
+    top: 409px;
+    left: 171px;
+    gap: 0px;
+    border-radius: 4px 0px 0px 0px;
+    opacity: 0px;
+    margin: 5px;
+  }
+}
+@media (max-width: 360px) {
+  .eachCarousel-container-mobile {
+    width: 100px;
+    height: 99px;
+    top: 336px;
+    left: 28px;
+    gap: 0px;
+    border-radius: 2px 0px 0px 0px;
+    opacity: 0px;
+  }
+}
+.eachCarousel-image {
+  width: 350px;
+  height: 224px;
+  top: 409px;
+  left: 171px;
+  gap: 0px;
+  border-radius: 4px 0px 0px 0px;
+  opacity: 0px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+.eachCarousel-aoutherName {
+  color: rgba(71, 85, 105, 1);
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+  text-align: center;
+  width: 100%;
+  height: 16px;
+  top: 685px;
+  left: 299px;
+  gap: 0px;
+  opacity: 0px;
+}
+
+.eachCarousel-title {
+  margin-top: 0px;
+  padding-top: 0px;
+  font-family: 'Roboto';
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 32px;
+  text-align: center;
+  width: 100%;
+  height: 32px;
+  top: 649px;
+  left: 282px;
+  gap: 0px;
+  opacity: 0px;
+  color: rgba(51, 65, 85, 1);
+}
+.eachCarousel-content-container {
+}

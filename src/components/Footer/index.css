@@ -1,0 +1,52 @@
+.footer-container {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+}
+
+.footer-unordered-container {
+  width: 145px;
+  height: 21px;
+  top: 899px;
+  left: 647px;
+  gap: 0px;
+  opacity: 0px;
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  margin-left: 0px;
+  padding-left: 0px;
+}
+.footer-list-item {
+  width: 18px;
+  height: 21px;
+  top: 899px;
+  left: 647px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: 'Font Awesome 5 Brands';
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 20.7px;
+  text-align: center;
+  color: rgba(61, 60, 60, 1);
+}
+.footer-para {
+  width: 80px;
+  height: 24px;
+  top: 936px;
+  left: 679px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: 'HK Grotesk';
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  color: rgba(61, 60, 60, 1);
+  align-self: center;
+  margin-top: 0px;
+  padding-top: 0px;
+}

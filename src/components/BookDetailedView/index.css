@@ -1,0 +1,178 @@
+@media (min-width: 361px) {
+  .bookdetailedview-book-details-desktop {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+  }
+  .bookdetailedview-book-title-desktop {
+    font-family: inherit;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 48px;
+    text-align: left;
+    color: rgba(51, 65, 85, 1);
+  }
+  .bookdetailedview-book-authorName-desktop {
+    font-family: inherit;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 32px;
+    text-align: left;
+    color: rgba(71, 85, 105, 1);
+  }
+  .bookdetailedview-book-rating-desktop {
+    font-family: inherit;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 32px;
+    text-align: left;
+    color: rgba(71, 85, 105, 1);
+  }
+  .bookdetailedview-book-status-desktop {
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    color: rgba(71, 85, 105, 1);
+  }
+  .bookdetailedview-book-readStatus-desktop {
+    font-family: inherit;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 32px;
+    text-align: left;
+    color: rgba(2, 132, 199, 1);
+  }
+  .bookdetailedview-book-about-author-desktop {
+    font-family: inherit;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32px;
+    text-align: left;
+    color: rgba(51, 65, 85, 1);
+  }
+  .bookdetailedview-book-about-para-desktop {
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+    color: rgba(71, 85, 105, 1);
+  }
+  .bookdetailedview-book-details-container-desktop {
+    background-color: #ffff;
+    padding: 30px;
+    border-radius: 10px;
+    width: 80%;
+    height: 80%;
+  }
+}
+@media (max-width: 360px) {
+  .bookdetailedview-book-details-mobile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+  }
+  .bookdetailedview-book-title-mobile {
+    font-family: inherit;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32px;
+    text-align: left;
+    color: rgba(51, 65, 85, 1);
+  }
+  .bookdetailedview-book-authorName-desktop {
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    color: rgba(71, 85, 105, 1);
+  }
+  .bookdetailedview-book-rating-mobile {
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    color: rgba(71, 85, 105, 1);
+  }
+  .bookdetailedview-book-readStatus-mobile {
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    color: rgba(2, 132, 199, 1);
+  }
+  .bookdetailedview-book-about-author-desktop {
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+    color: rgba(51, 65, 85, 1);
+  }
+  .bookdetailedview-book-about-para-desktop {
+    font-family: inherit;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+
+    color: rgba(71, 85, 105, 1);
+  }
+  .bookdetailedview-book-details-container-mobile {
+    padding: 30px;
+    border-radius: 10px;
+    width: 80%;
+    height: 80%;
+  }
+}
+
+.bookdetailedview-container {
+  background: rgb(232, 241, 255);
+  min-height: 110vh;
+  max-height: 1000vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.bookdetailedview-book-image {
+  width: 235px;
+  height: 274px;
+  top: 217px;
+  left: 427px;
+  gap: 0px;
+  border-radius: 14.13px 14.13px 14.13px 14.13px;
+  opacity: 0px;
+}
+.bookdetailedview-book-content-container {
+  padding-left: 40px;
+  height: 192px;
+  top: 258px;
+  left: 710px;
+  gap: 0px;
+  border-radius: 2px 0px 0px 0px;
+  opacity: 0px;
+}
+
+.bookdetailedview-book-status {
+  font-family: inherit;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 32px;
+  text-align: left;
+  color: rgba(71, 85, 105, 1);
+}
+.bookdetailedview-book-star-icon {
+  color: rgba(251, 191, 36, 1);
+}
+
+hr {
+  border: 1px solid rgba(148, 163, 184, 1);
+}
